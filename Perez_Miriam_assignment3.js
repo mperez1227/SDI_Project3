@@ -21,3 +21,26 @@ var movieType1 = "comedy",
 	numberOfPeople = 4,
 	thisSaturday = true,
 	thisFriday = false;
+	
+
+
+var theater = {
+	name:"AMC Aventura 24",
+	location: "Aventura, FL.",
+	price: 11,
+	foods: [
+		"popcorn",
+		"chicken tenders",
+		"pizza",
+		"mozzarella sticks"
+	],
+	goToAventure: function () [
+		console.log("We are going to the movies.");
+	}
+};
+
+var key = "name";
+
+console.log(theater[key]);
+
+theater.goToAventura
