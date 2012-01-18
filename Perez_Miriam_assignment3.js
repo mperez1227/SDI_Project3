@@ -38,10 +38,13 @@ var theater = {
 		"pizza",
 		"mozzarella sticks"
 	],
-	freeTickets: function () {
+	watchMovie: function () {
 		console.log("Does " + cousin + " have tickets for us again? " + theater.free);
 	}
 }
+
+theater.watchMovie()
+
 if (destination1 === "dinner") {
 
 	console.log("This is awesome, I will get to watch another movie for free!!");
@@ -50,5 +53,3 @@ if (destination1 === "dinner") {
 
 	console.log("We'll have to pay $" + theater.price + " per person.");
 };
-
-theater.freeTickets()
