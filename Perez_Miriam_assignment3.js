@@ -18,29 +18,29 @@ var movieType1 = "comedy",
 	destination2 = "dinner",
 	destination3 = "play pool",
 	thisWeekend = "Saturday",
+	cousin = "Barb",
 	numberOfPeople = 4,
 	thisSaturday = true,
 	thisFriday = false;
 	
+console.log("We had so much fun on Friday, that we decided to go out again this upcoming " + thisWeekend + ".");
 
+//Method Procedure
 
 var theater = {
 	name:"AMC Aventura 24",
 	location: "Aventura, FL.",
 	price: 11,
+	free: false,
 	foods: [
 		"popcorn",
 		"chicken tenders",
 		"pizza",
 		"mozzarella sticks"
 	],
-	goToAventure: function () [
-		console.log("We are going to the movies.");
+	freeTickets: function () {
+		console.log("Does " + cousin + " have tickets for us again? " + theater.free);
 	}
 };
 
-var key = "name";
-
-console.log(theater[key]);
-
-theater.goToAventura
+theater.freeTickets()
