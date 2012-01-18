@@ -41,6 +41,14 @@ var theater = {
 	freeTickets: function () {
 		console.log("Does " + cousin + " have tickets for us again? " + theater.free);
 	}
+}
+if (destination1 === "dinner") {
+
+	console.log("This is awesome, I will get to watch another movie for free!!");
+
+	} else {
+
+	console.log("We'll have to pay $" + theater.price + " per person.");
 };
 
 theater.freeTickets()
