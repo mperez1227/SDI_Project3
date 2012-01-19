@@ -75,7 +75,10 @@ var ticketCounter = {
 
 ticketCounter.buyTickets()
 	
-for (var tickets = 2; tickets > 0; tickets --) {
+for (var tickets = 1; tickets < 3; tickets ++) {
 	console.log(ticketCounter.names[2] + " hands my boyfriend ticket number " + tickets + ".");
+	for (var voucher = 1; voucher < 3; voucher ++) {
+		console.log(ticketCounter.names[2] + " also gives my boyfriend voucher number " + voucher + ".");
+	}	
 };
 
