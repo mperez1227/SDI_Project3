@@ -55,3 +55,17 @@ if (destination1 === "movies") {
 } else {
 	console.log("We'll all have extra money!");
 };
+
+//Method Function
+
+var ticketCounter = {
+	workers = "cashiers",
+	job = "sale movie tickets",
+	names = [
+		"Jason",
+		"Amy",
+		"Chris",
+		"Anthony"
+	],
+	
+	
