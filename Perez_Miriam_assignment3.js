@@ -45,11 +45,13 @@ var theater = {
 
 theater.watchMovie()
 
-if (destination1 === "dinner") {
-
-	console.log("This is awesome, I will get to watch another movie for free!!");
-
+if (destination1 === "movies") {
+	if (numberOfPeople === 4) {
+		console.log("Not a problem.")
+		console.log("We'll have to pay $" + theater.price + " per person.");
 	} else {
-
-	console.log("We'll have to pay $" + theater.price + " per person.");
+		console.log("This is awesome, I will get to watch another movie for free!!");
+	}
+} else {
+	console.log("We'll all have extra money!");
 };
