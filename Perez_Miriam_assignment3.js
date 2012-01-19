@@ -59,13 +59,19 @@ if (destination1 === "movies") {
 //Method Function
 
 var ticketCounter = {
-	workers = "cashiers",
-	job = "sale movie tickets",
-	names = [
+	workers: "cashiers",
+	job: "sale movie tickets",
+	names: [
 		"Jason",
 		"Amy",
 		"Chris",
 		"Anthony"
 	],
-	
+	buyTickets: function () {
+		console.log("My boyfriend will purchase his and my ticket to watch a " + movieType1 + " with my cousin and her husband.");
+		console.log("He is called to the ticket counter and the cashier who attends him is " + ticketCounter.names[2] + ".");
+	}
+}
+
+ticketCounter.buyTickets()
 	
