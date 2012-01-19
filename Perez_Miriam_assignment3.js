@@ -75,3 +75,7 @@ var ticketCounter = {
 
 ticketCounter.buyTickets()
 	
+for (var tickets = 2; tickets > 0; tickets --) {
+	console.log(ticketCounter.names[2] + " hands my boyfriend ticket number " + tickets + ".");
+};
+
