@@ -115,8 +115,15 @@ var dish = {
 		" alfredo sauce"
 	],
 	dishChoice: function() {
+	dish.name = "Shrimp Alfredo pasta"
 		console.log("I chose to have " + dish.name + " for dinner.");
 		console.log("It's my favorite dish, which brings " + dish.ingredients + ".");
 	}
+};
+var numberOfPeople = 4;
+while (numberOfPeople <= 4) {
+	console.log("Now it's time for us to choose what we will have for dinner");
+	numberOfPeople ++;
+	
 }
 dish.dishChoice()
