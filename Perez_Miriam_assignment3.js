@@ -104,3 +104,19 @@ if (movieType1 === "action") {
 } else {
 	console.log("We decided to go eat at " + restaurant.name + ".");
 };
+
+//Method Mutator
+
+var dish = {
+	name: "Shrimp Alfredo",
+	ingredients: [
+		"shrimp",
+		" linguine",
+		" alfredo sauce"
+	],
+	dishChoice: function() {
+		console.log("I chose to have " + dish.name + " for dinner.");
+		console.log("It's my favorite dish, which brings " + dish.ingredients + ".");
+	}
+}
+dish.dishChoice()
