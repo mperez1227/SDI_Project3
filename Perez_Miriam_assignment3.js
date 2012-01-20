@@ -71,14 +71,26 @@ var ticketCounter = {
 		console.log("My boyfriend will purchase his and my ticket to watch a " + movieType1 + " with my cousin and her husband.");
 		console.log("He is called to the ticket counter and the cashier who attends him is " + ticketCounter.names[2] + ".");
 	}
-}
 
+}
 ticketCounter.buyTickets()
 	
 for (var tickets = 1; tickets < 3; tickets ++) {
 	console.log(ticketCounter.names[2] + " hands my boyfriend ticket number " + tickets + ".");
-	for (var voucher = 1; voucher < 3; voucher ++) {
-		console.log(ticketCounter.names[2] + " also gives my boyfriend voucher number " + voucher + ".");
+	for (var voucher = 1; voucher < 2; voucher ++) {
+		console.log(ticketCounter.names[2] + " also gives my boyfriend a voucher.");
 	}	
+
 };
 
+//Method Accessor
+
+var restaurant = {
+	name: "Red Lobster", 
+	server: "Marie",
+	seats: 4,
+	haveDinner: function() {
+		console.log("We purchased our movie tickets " + restaurant.seats + " hours earlier so that we can go have dinner before watching the movie.");
+	}
+}
+restaurant.haveDinner()
