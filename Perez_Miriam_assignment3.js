@@ -94,3 +94,13 @@ var restaurant = {
 	}
 }
 restaurant.haveDinner()
+
+if (movieType1 === "action") {
+	if (cousin !== "Barb") {
+		console.log("We are so hungry!")
+	} else {
+		console.log("There is nowhere nearby to go eat.");
+	}
+} else {
+	console.log("We decided to go eat at " + restaurant.name + ".");
+};
